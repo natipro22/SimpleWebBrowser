@@ -28,7 +28,7 @@ namespace SimpleWebBrowser
         {
             if (string.IsNullOrEmpty(urlTxtBox.Text) || urlTxtBox.Text.Equals("about:blank"))
             {
-                MessageBox.Show("enter a valid url");
+                MessageBox.Show("enter a valid url address");
                 urlTxtBox.Focus();
                 return;
             }
